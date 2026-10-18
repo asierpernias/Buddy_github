@@ -932,6 +932,12 @@
 		)
 	)
 	(junction
+		(at 33.02 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7afd06-ffc5-4bc7-b626-9940f7cda9d7")
+	)
+	(junction
 		(at 34.29 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1127,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 50.8) (xy 30.48 50.8)
+			(xy 35.56 50.8) (xy 33.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1154,6 +1160,16 @@
 			(type default)
 		)
 		(uuid "d326f9e9-e044-4cfd-9500-129ab0f492e5")
+	)
+	(wire
+		(pts
+			(xy 33.02 50.8) (xy 30.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db933322-171b-4ade-8a3a-0d6ee5eaaf81")
 	)
 	(wire
 		(pts
@@ -1395,10 +1411,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ac39cc1-aaf1-4374-9ca0-8502b7e72bd9")
 		(property "Reference" "Waveshare_screen1"
-			(at 24.13 45.72 0)
+			(at 22.098 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1778,6 +1793,83 @@
 			(project "Buddy"
 				(path "/59b59739-0f64-457c-8bbb-529e011955ae"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 33.02 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec1cb7be-e056-4534-ab3a-8ba19f8a12a7")
+		(property "Reference" "#FLG02"
+			(at 33.02 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 33.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cafb410-0f47-426e-906b-7150e32a36a3")
+		)
+		(instances
+			(project "Buddy"
+				(path "/59b59739-0f64-457c-8bbb-529e011955ae"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
