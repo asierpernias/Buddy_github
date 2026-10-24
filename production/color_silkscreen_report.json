@@ -1,0 +1,271 @@
+{
+  "status": "ok",
+  "kicad_version": "10.0.4",
+  "input_board": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy/Buddy.kicad_pcb",
+  "steps": [
+    {
+      "name": "gerbers",
+      "ok": true,
+      "files": [
+        "Buddy-B_Adhesive.gba",
+        "Buddy-B_Courtyard.gbr",
+        "Buddy-B_Cu.gbl",
+        "Buddy-B_Fab.gbr",
+        "Buddy-B_Mask.gbs",
+        "Buddy-B_Paste.gbp",
+        "Buddy-B_Silkscreen.gbo",
+        "Buddy-Edge_Cuts.gm1",
+        "Buddy-F_Adhesive.gta",
+        "Buddy-F_Courtyard.gbr",
+        "Buddy-F_Cu.gtl",
+        "Buddy-F_Fab.gbr",
+        "Buddy-F_Mask.gts",
+        "Buddy-F_Paste.gtp",
+        "Buddy-F_Silkscreen.gto",
+        "Buddy-Margin.gbr",
+        "Buddy-NPTH-drl_map.gbr",
+        "Buddy-NPTH.drl",
+        "Buddy-PTH-drl_map.gbr",
+        "Buddy-PTH.drl",
+        "Buddy-User_1.gbr",
+        "Buddy-User_2.gbr",
+        "Buddy-User_3.gbr",
+        "Buddy-User_4.gbr",
+        "Buddy-User_Comments.gbr",
+        "Buddy-User_Drawings.gbr",
+        "Buddy-User_Eco1.gbr",
+        "Buddy-User_Eco2.gbr"
+      ]
+    },
+    {
+      "name": "compose_top",
+      "ok": true,
+      "image": "C:\\Users\\ague_\\Downloads\\309914478107c533407412ecbc29aa43.jpg",
+      "placement_mm": {
+        "image": "C:\\Users\\ague_\\Downloads\\309914478107c533407412ecbc29aa43.jpg",
+        "cx": 18.981563988039955,
+        "cy": 23.01313656397315,
+        "w": 35.08075734518622,
+        "h": 25.43951519045478,
+        "rot": 0
+      },
+      "source_dpi": 532.2,
+      "silk": {
+        "enabled": true,
+        "color": "#000000"
+      },
+      "silk_shapes": 53,
+      "offset_mm": [
+        0.0,
+        0.0
+      ],
+      "calibration": false,
+      "composite": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\color_top_composite.png",
+      "pixels": [
+        2835,
+        3307
+      ]
+    },
+    {
+      "name": "jlc_convert",
+      "ok": true,
+      "easyeda_version": "3.2.148",
+      "eda_version": "2.4(2026-05-08)",
+      "files": [
+        "Drill_NPTH_Through.DRL",
+        "Drill_PTH_Through.DRL",
+        "Gerber_BoardOutlineLayer.GKO",
+        "Gerber_BottomLayer.GBL",
+        "Gerber_BottomPasteMaskLayer.GBP",
+        "Gerber_BottomSilkscreenLayer.GBO",
+        "Gerber_BottomSolderMaskLayer.GBS",
+        "Gerber_TopLayer.GTL",
+        "Gerber_TopPasteMaskLayer.GTP",
+        "Gerber_TopSilkscreenLayer.GTO",
+        "Gerber_TopSolderMaskLayer.GTS"
+      ],
+      "dropped": [
+        "Buddy-B_Adhesive.gba",
+        "Buddy-B_Courtyard.gbr",
+        "Buddy-B_Fab.gbr",
+        "Buddy-F_Adhesive.gta",
+        "Buddy-F_Courtyard.gbr",
+        "Buddy-F_Fab.gbr",
+        "Buddy-Margin.gbr",
+        "Buddy-NPTH-drl_map.gbr",
+        "Buddy-PTH-drl_map.gbr",
+        "Buddy-User_1.gbr",
+        "Buddy-User_2.gbr",
+        "Buddy-User_3.gbr",
+        "Buddy-User_4.gbr",
+        "Buddy-User_Comments.gbr",
+        "Buddy-User_Drawings.gbr",
+        "Buddy-User_Eco1.gbr",
+        "Buddy-User_Eco2.gbr"
+      ]
+    },
+    {
+      "name": "silk_gerber_blanked",
+      "ok": true,
+      "side": "top",
+      "file": "Gerber_TopSilkscreenLayer.GTO"
+    },
+    {
+      "name": "outline_bounds",
+      "ok": true,
+      "bounds_mm": [
+        100.0,
+        -140.0,
+        160.0,
+        -70.0
+      ],
+      "size_mm": [
+        60.0,
+        70.0
+      ]
+    },
+    {
+      "name": "image_top",
+      "ok": true,
+      "path": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\color_top_composite.png",
+      "format": "png",
+      "pixels": [
+        2835,
+        3307
+      ],
+      "dpi": 1200.0,
+      "bytes": 2301112
+    },
+    {
+      "name": "mask_top",
+      "ok": true,
+      "openings": 60,
+      "mode": "exact"
+    },
+    {
+      "name": "svg_top",
+      "ok": true,
+      "bytes": 3126320,
+      "gerber_delta_mm": 0.0
+    },
+    {
+      "name": "encrypt_top",
+      "ok": true,
+      "bytes": 3126848,
+      "backend": "openssl"
+    },
+    {
+      "name": "color_files",
+      "ok": true,
+      "files": [
+        "Fabrication_ColorfulTopSilkscreen.FCTS",
+        "Fabrication_ColorfulBoardOutlineLayer.FCBO",
+        "Fabrication_ColorfulBoardOutlineMark.FCBM"
+      ]
+    },
+    {
+      "name": "zip",
+      "ok": true,
+      "path": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\Buddy.zip",
+      "files": [
+        "Drill_NPTH_Through.DRL",
+        "Drill_PTH_Through.DRL",
+        "Fabrication_ColorfulBoardOutlineLayer.FCBO",
+        "Fabrication_ColorfulBoardOutlineMark.FCBM",
+        "Fabrication_ColorfulTopSilkscreen.FCTS",
+        "Gerber_BoardOutlineLayer.GKO",
+        "Gerber_BottomLayer.GBL",
+        "Gerber_BottomPasteMaskLayer.GBP",
+        "Gerber_BottomSilkscreenLayer.GBO",
+        "Gerber_BottomSolderMaskLayer.GBS",
+        "Gerber_TopLayer.GTL",
+        "Gerber_TopPasteMaskLayer.GTP",
+        "Gerber_TopSilkscreenLayer.GTO",
+        "Gerber_TopSolderMaskLayer.GTS",
+        "PCB下单必读.txt"
+      ]
+    },
+    {
+      "name": "precheck",
+      "ok": true,
+      "checks": [
+        {
+          "code": "P_FILESET",
+          "ok": true,
+          "level": "error",
+          "message": "Couches Gerber présentes"
+        },
+        {
+          "code": "P_HEADER",
+          "ok": true,
+          "level": "error",
+          "message": "En-tête EasyEDA sur chaque Gerber"
+        },
+        {
+          "code": "P_VERSION",
+          "ok": true,
+          "level": "error",
+          "message": "Version EasyEDA >= 3.2.135"
+        },
+        {
+          "code": "P_FINGERPRINT",
+          "ok": true,
+          "level": "error",
+          "message": "Empreinte EasyEDA valide sur chaque Gerber"
+        },
+        {
+          "code": "P_COLOR_TOP",
+          "ok": true,
+          "level": "error",
+          "message": "Fabrication_ColorfulTopSilkscreen.FCTS présent (3126848 octets)"
+        },
+        {
+          "code": "P_FCBO",
+          "ok": true,
+          "level": "error",
+          "message": "Fabrication_ColorfulBoardOutlineLayer.FCBO présent"
+        },
+        {
+          "code": "P_FCBM",
+          "ok": true,
+          "level": "error",
+          "message": "Fabrication_ColorfulBoardOutlineMark.FCBM présent"
+        },
+        {
+          "code": "P_SILK_TOP",
+          "ok": true,
+          "level": "error",
+          "message": "Sérigraphie classique top vidée, avec empreinte"
+        },
+        {
+          "code": "P_ASPECT_TOP",
+          "ok": true,
+          "level": "error",
+          "message": "Image top aux proportions du contour"
+        },
+        {
+          "code": "P_ZIP_SIZE",
+          "ok": true,
+          "level": "warning",
+          "message": "ZIP de 3.0 Mo"
+        }
+      ]
+    },
+    {
+      "name": "preview",
+      "ok": true,
+      "files": [
+        "preview_top.png",
+        "preview_bottom.png"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "code": "I_SILK_GERBER_BLANKED",
+      "message": "Sérigraphie classique dessus vidée : elle est imprimée dans l'image couleur."
+    }
+  ],
+  "duration_s": 6.642
+}

@@ -1,0 +1,27 @@
+2026-10-24 19:56:26,688 INFO step gerbers ok=True {}
+2026-10-24 19:56:27,086 INFO step compose_top ok=True {'image': 'C:\\Users\\ague_\\Downloads\\309914478107c533407412ecbc29aa43.jpg', 'placement_mm': {'image': 'C:\\Users\\ague_\\Downloads\\309914478107c533407412ecbc29aa43.jpg', 'cx': 18.981563988039955, 'cy': 23.01313656397315, 'w': 35.08075734518622, 'h': 25.43951519045478, 'rot': 0}, 'source_dpi': 532.2, 'silk': {'enabled': True, 'color': '#000000'}, 'silk_shapes': 53, 'offset_mm': [0.0, 0.0], 'calibration': False, 'composite': 'C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\color_top_composite.png', 'pixels': [2835, 3307]}
+2026-10-24 19:56:27,096 INFO Buddy-B_Cu.gbl -> Gerber_BottomLayer.GBL
+2026-10-24 19:56:27,096 INFO Buddy-B_Mask.gbs -> Gerber_BottomSolderMaskLayer.GBS
+2026-10-24 19:56:27,098 INFO Buddy-B_Paste.gbp -> Gerber_BottomPasteMaskLayer.GBP
+2026-10-24 19:56:27,099 INFO Buddy-B_Silkscreen.gbo -> Gerber_BottomSilkscreenLayer.GBO
+2026-10-24 19:56:27,101 INFO Buddy-Edge_Cuts.gm1 -> Gerber_BoardOutlineLayer.GKO
+2026-10-24 19:56:27,107 INFO Buddy-F_Cu.gtl -> Gerber_TopLayer.GTL
+2026-10-24 19:56:27,109 INFO Buddy-F_Mask.gts -> Gerber_TopSolderMaskLayer.GTS
+2026-10-24 19:56:27,111 INFO Buddy-F_Paste.gtp -> Gerber_TopPasteMaskLayer.GTP
+2026-10-24 19:56:27,114 INFO Buddy-F_Silkscreen.gto -> Gerber_TopSilkscreenLayer.GTO
+2026-10-24 19:56:27,115 INFO Buddy-NPTH.drl -> Drill_NPTH_Through.DRL
+2026-10-24 19:56:27,117 INFO Buddy-PTH.drl -> Drill_PTH_Through.DRL
+2026-10-24 19:56:27,135 INFO fichiers non transmis : Buddy-B_Adhesive.gba, Buddy-B_Courtyard.gbr, Buddy-B_Fab.gbr, Buddy-F_Adhesive.gta, Buddy-F_Courtyard.gbr, Buddy-F_Fab.gbr, Buddy-Margin.gbr, Buddy-NPTH-drl_map.gbr, Buddy-PTH-drl_map.gbr, Buddy-User_1.gbr, Buddy-User_2.gbr, Buddy-User_3.gbr, Buddy-User_4.gbr, Buddy-User_Comments.gbr, Buddy-User_Drawings.gbr, Buddy-User_Eco1.gbr, Buddy-User_Eco2.gbr
+2026-10-24 19:56:27,135 INFO step jlc_convert ok=True {'easyeda_version': '3.2.148', 'eda_version': '2.4(2026-05-08)', 'dropped': ['Buddy-B_Adhesive.gba', 'Buddy-B_Courtyard.gbr', 'Buddy-B_Fab.gbr', 'Buddy-F_Adhesive.gta', 'Buddy-F_Courtyard.gbr', 'Buddy-F_Fab.gbr', 'Buddy-Margin.gbr', 'Buddy-NPTH-drl_map.gbr', 'Buddy-PTH-drl_map.gbr', 'Buddy-User_1.gbr', 'Buddy-User_2.gbr', 'Buddy-User_3.gbr', 'Buddy-User_4.gbr', 'Buddy-User_Comments.gbr', 'Buddy-User_Drawings.gbr', 'Buddy-User_Eco1.gbr', 'Buddy-User_Eco2.gbr']}
+2026-10-24 19:56:27,136 INFO step silk_gerber_blanked ok=True {'side': 'top', 'file': 'Gerber_TopSilkscreenLayer.GTO'}
+2026-10-24 19:56:27,136 WARNING I_SILK_GERBER_BLANKED Sérigraphie classique dessus vidée : elle est imprimée dans l'image couleur.
+2026-10-24 19:56:27,137 INFO step outline_bounds ok=True {'bounds_mm': [100.0, -140.0, 160.0, -70.0], 'size_mm': [60.0, 70.0]}
+2026-10-24 19:56:27,206 INFO step image_top ok=True {'path': 'C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\color_top_composite.png', 'format': 'png', 'pixels': [2835, 3307], 'dpi': 1200.0, 'bytes': 2301112}
+2026-10-24 19:56:27,242 INFO step mask_top ok=True {'openings': 60, 'mode': 'exact'}
+2026-10-24 19:56:27,252 INFO step svg_top ok=True {'bytes': 3126320, 'gerber_delta_mm': 0.0}
+2026-10-24 19:56:27,280 INFO step encrypt_top ok=True {'bytes': 3126848, 'backend': 'openssl'}
+2026-10-24 19:56:27,286 INFO step color_files ok=True {}
+2026-10-24 19:56:27,286 INFO fichiers couleur : Fabrication_ColorfulTopSilkscreen.FCTS, Fabrication_ColorfulBoardOutlineLayer.FCBO, Fabrication_ColorfulBoardOutlineMark.FCBM
+2026-10-24 19:56:32,268 INFO step zip ok=True {'path': 'C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\Buddy.zip'}
+2026-10-24 19:56:32,283 INFO step precheck ok=True {'checks': [{'code': 'P_FILESET', 'ok': True, 'level': 'error', 'message': 'Couches Gerber présentes'}, {'code': 'P_HEADER', 'ok': True, 'level': 'error', 'message': 'En-tête EasyEDA sur chaque Gerber'}, {'code': 'P_VERSION', 'ok': True, 'level': 'error', 'message': 'Version EasyEDA >= 3.2.135'}, {'code': 'P_FINGERPRINT', 'ok': True, 'level': 'error', 'message': 'Empreinte EasyEDA valide sur chaque Gerber'}, {'code': 'P_COLOR_TOP', 'ok': True, 'level': 'error', 'message': 'Fabrication_ColorfulTopSilkscreen.FCTS présent (3126848 octets)'}, {'code': 'P_FCBO', 'ok': True, 'level': 'error', 'message': 'Fabrication_ColorfulBoardOutlineLayer.FCBO présent'}, {'code': 'P_FCBM', 'ok': True, 'level': 'error', 'message': 'Fabrication_ColorfulBoardOutlineMark.FCBM présent'}, {'code': 'P_SILK_TOP', 'ok': True, 'level': 'error', 'message': 'Sérigraphie classique top vidée, avec empreinte'}, {'code': 'P_ASPECT_TOP', 'ok': True, 'level': 'error', 'message': 'Image top aux proportions du contour'}, {'code': 'P_ZIP_SIZE', 'ok': True, 'level': 'warning', 'message': 'ZIP de 3.0 Mo'}]}
+2026-10-24 19:56:32,858 INFO step preview ok=True {}

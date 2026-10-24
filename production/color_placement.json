@@ -1,0 +1,25 @@
+{
+  "board_mm": [
+    60.0,
+    70.0
+  ],
+  "origin_mm": [
+    100.0,
+    70.0
+  ],
+  "frame": "mm, origine coin haut-gauche du contour, Y vers le bas ; dessous vu de dessous",
+  "top": {
+    "image": "C:\\Users\\ague_\\Downloads\\309914478107c533407412ecbc29aa43.jpg",
+    "cx": 18.981563988039955,
+    "cy": 23.01313656397315,
+    "w": 35.08075734518622,
+    "h": 25.43951519045478,
+    "rot": 0
+  },
+  "silk": {
+    "top": {
+      "enabled": true,
+      "color": "#000000"
+    }
+  }
+}
