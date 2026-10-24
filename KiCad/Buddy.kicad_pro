@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -648,7 +648,7 @@
         "uuid": "59b59739-0f64-457c-8bbb-529e011955ae"
       }
     ],
-    "used_designators": "U1-3,#PWR1,Q1,Waveshare_screen1-2,R1-2,#FLG1-2,C1-4,SW1",
+    "used_designators": "U1-3,#PWR1,Q1,Waveshare_screen1-2,#FLG1-2,R1-2,C1-4,SW1,CN1",
     "variants": []
   },
   "sheets": [

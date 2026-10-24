@@ -10,4 +10,8 @@ First of all, I searched for the IMU and the button (a lateral one, in the end) 
 
 Session 3 - 18/10/2026 - 2h
 
-Not a lot to say, simply added the footprints, solved a few errors with the custom ones not being there (just ended up restarting KiCad) and did a basic routing of the pcb, added 3v3 and GND layer (6). My next step is to try to optimize more the layout, there's a lot of vias right now; adding a custom silkscreen art, maybie multicolor because I want to try to see how it works; and measuring the components (the time this is beign written I have already recieved the screen) to adapt the PCB to them 
+Not a lot to say, simply added the footprints, solved a few errors with the custom ones not being there (just ended up restarting KiCad) and did a basic routing of the pcb, added 3v3 and GND layer (6). My next step is to try to optimize more the layout, there's a lot of vias right now; adding a custom silkscreen art, maybie multicolor because I want to try to see how it works; and measuring the components (the time this is beign written I have already recieved the screen) to adapt the PCB to them.
+
+Session 4 - 19/10/2026 to 24/10/2026 - 1h
+
+During this last week I had not had a lot of time to work on Buddy, however, and because of the xiao and the screen arriving after I bought them I took the measures of the screen, changed its footprint to be as accurated as possible (7), modified and re-routed the pcb, added a mounting hole where Ill put a carabin later and finally defined the space I'm having ti the silkscreen art. (8)
