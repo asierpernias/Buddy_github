@@ -15,3 +15,7 @@ Not a lot to say, simply added the footprints, solved a few errors with the cust
 Session 4 - 19/10/2026 to 24/10/2026 - 1h
 
 During this last week I had not had a lot of time to work on Buddy, however, and because of the xiao and the screen arriving after I bought them I took the measures of the screen, changed its footprint to be as accurated as possible (7), modified and re-routed the pcb, added a mounting hole where Ill put a carabin later and finally defined the space I'm having ti the silkscreen art. (8)
+
+Session 5 - 24/10/2026 - 1h
+
+It has been a hell to get a multicolor silkscreen art on kicad but as always a random Github repo saved the day, the extension itself french but after a lot of suffering and a translator in the other hand I managed to get a picture in the PCB. (9)
