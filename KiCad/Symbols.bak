@@ -85,7 +85,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -103,7 +103,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -121,7 +121,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -139,7 +139,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -157,7 +157,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -175,7 +175,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -193,7 +193,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -211,7 +211,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)

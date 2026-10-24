@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "kicad_version": "10.0.4",
-  "input_board": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy/Buddy.kicad_pcb",
+  "input_board": "C:\\Users\\ague_\\Desktop\\programacion\\Expedition\\Buddy\\Buddy.kicad_pcb",
   "steps": [
     {
       "name": "gerbers",
@@ -54,13 +54,13 @@
         "enabled": true,
         "color": "#000000"
       },
-      "silk_shapes": 53,
+      "silk_shapes": 52,
       "offset_mm": [
         0.0,
         0.0
       ],
       "calibration": false,
-      "composite": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\color_top_composite.png",
+      "composite": "C:\\Users\\ague_\\Desktop\\programacion\\Expedition\\Buddy\\production\\color_top_composite.png",
       "pixels": [
         2835,
         3307
@@ -127,14 +127,14 @@
     {
       "name": "image_top",
       "ok": true,
-      "path": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\color_top_composite.png",
+      "path": "C:\\Users\\ague_\\Desktop\\programacion\\Expedition\\Buddy\\production\\color_top_composite.png",
       "format": "png",
       "pixels": [
         2835,
         3307
       ],
       "dpi": 1200.0,
-      "bytes": 2301112
+      "bytes": 2301206
     },
     {
       "name": "mask_top",
@@ -145,13 +145,13 @@
     {
       "name": "svg_top",
       "ok": true,
-      "bytes": 3126320,
+      "bytes": 3126421,
       "gerber_delta_mm": 0.0
     },
     {
       "name": "encrypt_top",
       "ok": true,
-      "bytes": 3126848,
+      "bytes": 3126949,
       "backend": "openssl"
     },
     {
@@ -166,7 +166,7 @@
     {
       "name": "zip",
       "ok": true,
-      "path": "C:/Users/ague_/Desktop/programacion/Expedition/Buddy\\production\\Buddy.zip",
+      "path": "C:\\Users\\ague_\\Desktop\\programacion\\Expedition\\Buddy\\production\\Buddy.zip",
       "files": [
         "Drill_NPTH_Through.DRL",
         "Drill_PTH_Through.DRL",
@@ -217,7 +217,7 @@
           "code": "P_COLOR_TOP",
           "ok": true,
           "level": "error",
-          "message": "Fabrication_ColorfulTopSilkscreen.FCTS présent (3126848 octets)"
+          "message": "Fabrication_ColorfulTopSilkscreen.FCTS présent (3126949 octets)"
         },
         {
           "code": "P_FCBO",
@@ -267,5 +267,5 @@
       "message": "Sérigraphie classique dessus vidée : elle est imprimée dans l'image couleur."
     }
   ],
-  "duration_s": 6.642
+  "duration_s": 7.553
 }
