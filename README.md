@@ -18,7 +18,7 @@ The code is in `code/code.ino`.
 
 ## BOM
 | Designator | Footprint | Qty | Value | LCSC Part # | Total (USD) |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | C3, C4 | 0402 | 2 | 100nF | C1525 | 0.002 |
 | CN1 | CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN | 1 | S2B-PH-SM4-TB | C295747 | 0.22 |
 | R1, R2 | 0402 | 2 | 4.7k | C25900 | 0.001 | 0.002 |
