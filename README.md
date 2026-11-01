@@ -1,5 +1,5 @@
 # Buddy
-A small pocket friend with animated eyes. Buddy runs on a XIAO ESP32-S3 with a 2" LCD and, through a imu (LIS2DH12), reacts to how you handle it.
+A small size pocket friend with animated eyes. Buddy runs on a XIAO ESP32-S3 with a 2" LCD and, through a imu (LIS2DH12), reacts to how you handle it.
 
 ## Features
 - Animated eyes drawn off-screen and pushed in a single transfer to the screen so ther is no flicker.
@@ -29,6 +29,7 @@ The code is in `code/code.ino`.
 **Total**  **≈ 22.65** 
 
 ## Screenshots
+<img width="737" height="758" alt="image" src="https://github.com/user-attachments/assets/b8ba8bbd-42d0-4333-a636-a4b6ff27cfa9" />
 
 ## LICENSE
 
