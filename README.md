@@ -30,6 +30,7 @@ The code is in `code/code.ino`.
 
 ## Screenshots
 <img width="737" height="758" alt="image" src="https://github.com/user-attachments/assets/b8ba8bbd-42d0-4333-a636-a4b6ff27cfa9" />
+<img width="703" height="741" alt="image" src="https://github.com/user-attachments/assets/d141b1a0-5f0a-4a78-bae2-3874b9742e8e" />
 
 ## LICENSE
 
