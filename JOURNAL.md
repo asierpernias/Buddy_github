@@ -94,7 +94,7 @@ I also modified and re-routed the PCB, added a mounting hole where I'll put a ca
 
 | space for the silkscreen art |
 | --- |
-| <img width="241" height="250" alt="Space reserved for the silkscreen art" src="https://github.com/user-attachments/assets/d450067a-76d5-456b-8e32-de5ecb8c4a58" /> |
+| <img width="583" height="671" alt="Captura de pantalla 2026-10-24 184824" src="https://github.com/user-attachments/assets/2a3510c4-9813-4368-8c3f-f92868f6e7c1" /> |
 
 </div>
 
