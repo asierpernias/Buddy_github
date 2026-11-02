@@ -26,7 +26,9 @@ The code is in `code/code.ino`.
 | U2 | LGA-12_L2.0-W2.0-P0.50-BL | 1 | LIS2DH12TR | C110926 | 0.61 |
 | U3 | XIAO-ESP32-S3-SMD | 1 | XIAO ESP32-S3 | n/a (Seeed Studio) | 7.49 |
 | WAVESHARE_SCREEN | PinHeader_1x08_P2.54mm_Vertical | 1 | Waveshare 2inch LCD Module | n/a (Waveshare) |  14.28 |
-**Total**  **≈ 22.65** 
+| **PCB** | $8.96 | **PCBA assembly** | $82.6  | Total PCB fabricatipm | $91.54 |
+**Total**  **≈ $112** 
+
 
 ## Screenshots
 <img width="737" height="758" alt="image" src="https://github.com/user-attachments/assets/b8ba8bbd-42d0-4333-a636-a4b6ff27cfa9" />
