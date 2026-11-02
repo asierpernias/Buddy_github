@@ -129,3 +129,10 @@ Another week of school has not allowed me to work in one continuous block on the
 </div>
 
 The last thing I have left is to upload the screenshots (that I have been storing on my laptop) and write a proper README.
+
+---
+
+### Journal #7 Fixing the submission
+Time spent : 1 hours
+
+Hii!! This will be my last journal for a while (I still pretend to continue working on this but I have other projects I want to give a try). My aim today was just to get the few problems I had with the repo fixed in order to resumbit and qualify for (Expedition)[https://expedition.hackclub.com/]. First of all, I added a schematic screenshot to the Readme, at the same time I got a aproximate on how much would it cost to get the PCB assembled (more expensive, hopefully optimizable, that I hoped it to be) and added it to the BOM. Just to end with all the requirements I improved the formatting and took my time to check all of my journals. The formatting was done by using (this one)[https://github.com/Shadow220108/misha/blob/main/JOURNAL.md] as a foundament. Thats all for now!! :3
